@@ -106,4 +106,4 @@ To reproduce this analysis:
 
 ## Acknowledgements
 
-The dataset used in this project was sourced from Kaggle and credited to its original contributors. This project was completed independently.
+The dataset used in this project, "Canadian house prices for top cities," was sourced from [Kaggle](https://www.kaggle.com/datasets/jeremylarcher/canadian-house-prices-for-top-cities/code) and credited to its original contributors. This project was completed independently.
