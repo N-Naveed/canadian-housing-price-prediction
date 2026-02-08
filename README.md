@@ -94,7 +94,7 @@ This project explored the use of a simple linear regression model in predicting 
 To reproduce this analysis:
 
 1. Download the dataset *"Canadian House Prices for Top Cities"* from Kaggle.
-2. Place the CSV file in the same directory as the notebook (or update the path in the notebook to match its location).
+2. Place the CSV file in the `data/` folder
 3. Install the required Python packages:
   ```bash
    pip install -r requirements.txt
