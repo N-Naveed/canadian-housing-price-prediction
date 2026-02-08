@@ -4,6 +4,15 @@ This repository contains a research project that examines how well a simple line
 
 ---
 
+## How to Read This Repository
+
+- **README.md** contains a research-paper-style write-up explaining the goal, methodology, results, and limitations of the project.
+- **`notebook/Canadian_Housing_Prediction.ipynb`** contains the full analysis, including all the code, preprocessing steps, visualizations, and explanatory markdown.
+- **`data/Canadian House Prices.csv`** contains the dataset used in the analysis.
+- The project prioritizes **interpretability and statistical reasoning** over maximum predictive accuracy.
+
+---
+
 ## Abstract
 
 Housing prices vary across Canada due to many overlapping factors, making them challenging to predict. In this project, I explore how well a simple linear regression model can predict housing prices using a publicly available Kaggle dataset of listings from many Canadian cities. The goal of this project is not to maximize accuracy, but rather to remain easily understandable while still being statistically sound.  
