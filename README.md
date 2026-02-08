@@ -79,15 +79,19 @@ Future work could explore more flexible models, such as regularized regression o
 This project explored the use of a simple linear regression model in predicting housing prices across Canada using a publicly available dataset. By prioritizing interpretability over maximum accuracy, the model provides clear insight into how basic property features and regional factors influence housing prices. Although higher-priced homes are more challenging to predict, this reflects the complexity and scale of the housing market rather than poor model design. Overall, the results show that even simple, well-applied models can offer meaningful understanding of complex real-world data.
 
 ---
-
+   
 ## Reproducibility
 
 To reproduce this analysis:
 
-1. Download the dataset "Canadian House Prices for Top Cities" from Kaggle.  
-2. Place the CSV file in the directory referenced in the notebook.  
-3. Run the notebook from top to bottom using Python 3.x.  
-4. A fixed random seed ensures reproducible train-test splits and cross-validation results.
+1. Download the dataset *"Canadian House Prices for Top Cities"* from Kaggle.
+2. Place the CSV file in the same directory as the notebook (or update the path in the notebook to match its location).
+3. Install the required Python packages:
+  ```bash
+   pip install -r requirements.txt
+  ```
+4. Run the notebook from top to bottom using Python 3.x.
+5. A fixed random seed (`SEED = 42`) ensures reproducible train-test splits and cross-validation results.
 
 ---
 
